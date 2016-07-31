@@ -1,21 +1,16 @@
-//
-//  ievrenosAppDelegate.m
-//  iSpending
-//
-//  Created by ILKER EVRENOS on 5/31/14.
-//  Copyright (c) 2014 DePaul University. All rights reserved.
-//
 
-#import "ievrenosAppDelegate.h"
 
-@implementation ievrenosAppDelegate
+#import "AppDelegate.h"
+
+@implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    //self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
+    //self.window.backgroundColor = [UIColor whiteColor];
+    //[self.window makeKeyAndVisible];
+
     return YES;
 }
 

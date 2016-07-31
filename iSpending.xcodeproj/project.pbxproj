@@ -7,18 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5203C26119443B5600A6B1BD /* ievrenosExpenseDateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5203C26019443B5600A6B1BD /* ievrenosExpenseDateViewController.m */; };
+		52509D27193C43F000F8744C /* ievrenosAddIncomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52509D26193C43F000F8744C /* ievrenosAddIncomeViewController.m */; };
+		52509D2A193C49F800F8744C /* ievrenosIncomeDateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52509D29193C49F800F8744C /* ievrenosIncomeDateViewController.m */; };
+		52509D2D193C4D5400F8744C /* ievrenosIncomeCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52509D2C193C4D5400F8744C /* ievrenosIncomeCategoryViewController.m */; };
+		52509D30193C603A00F8744C /* ievrenosAddExpenseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52509D2F193C603A00F8744C /* ievrenosAddExpenseViewController.m */; };
+		52509D33193C635E00F8744C /* ievrenosExpenseCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52509D32193C635E00F8744C /* ievrenosExpenseCategoryViewController.m */; };
+		52582249193FE7C3000DA3F2 /* ievrenosPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 52582248193FE7C3000DA3F2 /* ievrenosPieChart.m */; };
+		5258224C193FF916000DA3F2 /* ievrenosSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5258224B193FF916000DA3F2 /* ievrenosSingleton.m */; };
+		528936181944F5BA00DFBADC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52D2780C193ABB1B00A60D87 /* Images.xcassets */; };
 		52D277FB193ABB1B00A60D87 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D277FA193ABB1B00A60D87 /* Foundation.framework */; };
 		52D277FD193ABB1B00A60D87 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D277FC193ABB1B00A60D87 /* CoreGraphics.framework */; };
 		52D277FF193ABB1B00A60D87 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D277FE193ABB1B00A60D87 /* UIKit.framework */; };
 		52D27805193ABB1B00A60D87 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52D27803193ABB1B00A60D87 /* InfoPlist.strings */; };
 		52D27807193ABB1B00A60D87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D27806193ABB1B00A60D87 /* main.m */; };
 		52D2780B193ABB1B00A60D87 /* ievrenosAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D2780A193ABB1B00A60D87 /* ievrenosAppDelegate.m */; };
-		52D2780D193ABB1B00A60D87 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52D2780C193ABB1B00A60D87 /* Images.xcassets */; };
 		52D27814193ABB1C00A60D87 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D27813193ABB1C00A60D87 /* XCTest.framework */; };
 		52D27815193ABB1C00A60D87 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D277FA193ABB1B00A60D87 /* Foundation.framework */; };
 		52D27816193ABB1C00A60D87 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D277FE193ABB1B00A60D87 /* UIKit.framework */; };
 		52D2781E193ABB1C00A60D87 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52D2781C193ABB1C00A60D87 /* InfoPlist.strings */; };
 		52D27820193ABB1C00A60D87 /* iSpendingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D2781F193ABB1C00A60D87 /* iSpendingTests.m */; };
+		52D27831193ABC0F00A60D87 /* ievrenosAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D27830193ABC0F00A60D87 /* ievrenosAccountViewController.m */; };
+		52D27834193ABC2600A60D87 /* ievrenosReportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D27833193ABC2600A60D87 /* ievrenosReportViewController.m */; };
+		52D2783C193ABC9500A60D87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52D2783B193ABC9500A60D87 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +43,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5203C25F19443B5600A6B1BD /* ievrenosExpenseDateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ievrenosExpenseDateViewController.h; sourceTree = "<group>"; };
+		5203C26019443B5600A6B1BD /* ievrenosExpenseDateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ievrenosExpenseDateViewController.m; sourceTree = "<group>"; };
+		52509D25193C43F000F8744C /* ievrenosAddIncomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ievrenosAddIncomeViewController.h; sourceTree = "<group>"; };
+		52509D26193C43F000F8744C /* ievrenosAddIncomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ievrenosAddIncomeViewController.m; sourceTree = "<group>"; };
+		52509D28193C49F800F8744C /* ievrenosIncomeDateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ievrenosIncomeDateViewController.h; path = iSpending/ievrenosIncomeDateViewController.h; sourceTree = "<group>"; };
+		52509D29193C49F800F8744C /* ievrenosIncomeDateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ievrenosIncomeDateViewController.m; path = iSpending/ievrenosIncomeDateViewController.m; sourceTree = "<group>"; };
+		52509D2B193C4D5400F8744C /* ievrenosIncomeCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ievrenosIncomeCategoryViewController.h; path = iSpending/ievrenosIncomeCategoryViewController.h; sourceTree = "<group>"; };
+		52509D2C193C4D5400F8744C /* ievrenosIncomeCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ievrenosIncomeCategoryViewController.m; path = iSpending/ievrenosIncomeCategoryViewController.m; sourceTree = "<group>"; };
+		52509D2E193C603A00F8744C /* ievrenosAddExpenseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ievrenosAddExpenseViewController.h; path = iSpending/ievrenosAddExpenseViewController.h; sourceTree = "<group>"; };
+		52509D2F193C603A00F8744C /* ievrenosAddExpenseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ievrenosAddExpenseViewController.m; path = iSpending/ievrenosAddExpenseViewController.m; sourceTree = "<group>"; };
+		52509D31193C635E00F8744C /* ievrenosExpenseCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ievrenosExpenseCategoryViewController.h; path = iSpending/ievrenosExpenseCategoryViewController.h; sourceTree = "<group>"; };
+		52509D32193C635E00F8744C /* ievrenosExpenseCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ievrenosExpenseCategoryViewController.m; path = iSpending/ievrenosExpenseCategoryViewController.m; sourceTree = "<group>"; };
+		52582247193FE7C3000DA3F2 /* ievrenosPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ievrenosPieChart.h; sourceTree = "<group>"; };
+		52582248193FE7C3000DA3F2 /* ievrenosPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ievrenosPieChart.m; sourceTree = "<group>"; };
+		5258224A193FF916000DA3F2 /* ievrenosSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ievrenosSingleton.h; sourceTree = "<group>"; };
+		5258224B193FF916000DA3F2 /* ievrenosSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ievrenosSingleton.m; sourceTree = "<group>"; };
 		52D277F7193ABB1B00A60D87 /* iSpending.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iSpending.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52D277FA193ABB1B00A60D87 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		52D277FC193ABB1B00A60D87 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +75,11 @@
 		52D2781B193ABB1C00A60D87 /* iSpendingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iSpendingTests-Info.plist"; sourceTree = "<group>"; };
 		52D2781D193ABB1C00A60D87 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		52D2781F193ABB1C00A60D87 /* iSpendingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iSpendingTests.m; sourceTree = "<group>"; };
+		52D2782F193ABC0F00A60D87 /* ievrenosAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ievrenosAccountViewController.h; sourceTree = "<group>"; };
+		52D27830193ABC0F00A60D87 /* ievrenosAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ievrenosAccountViewController.m; sourceTree = "<group>"; };
+		52D27832193ABC2600A60D87 /* ievrenosReportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ievrenosReportViewController.h; sourceTree = "<group>"; };
+		52D27833193ABC2600A60D87 /* ievrenosReportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ievrenosReportViewController.m; sourceTree = "<group>"; };
+		52D2783B193ABC9500A60D87 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +106,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5203C26219443C3A00A6B1BD /* Income */ = {
+			isa = PBXGroup;
+			children = (
+				52509D25193C43F000F8744C /* ievrenosAddIncomeViewController.h */,
+				52509D26193C43F000F8744C /* ievrenosAddIncomeViewController.m */,
+				52509D2B193C4D5400F8744C /* ievrenosIncomeCategoryViewController.h */,
+				52509D2C193C4D5400F8744C /* ievrenosIncomeCategoryViewController.m */,
+				52509D28193C49F800F8744C /* ievrenosIncomeDateViewController.h */,
+				52509D29193C49F800F8744C /* ievrenosIncomeDateViewController.m */,
+			);
+			name = Income;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		5203C26319443C8000A6B1BD /* Expense */ = {
+			isa = PBXGroup;
+			children = (
+				52509D2E193C603A00F8744C /* ievrenosAddExpenseViewController.h */,
+				52509D2F193C603A00F8744C /* ievrenosAddExpenseViewController.m */,
+				52509D31193C635E00F8744C /* ievrenosExpenseCategoryViewController.h */,
+				52509D32193C635E00F8744C /* ievrenosExpenseCategoryViewController.m */,
+				5203C25F19443B5600A6B1BD /* ievrenosExpenseDateViewController.h */,
+				5203C26019443B5600A6B1BD /* ievrenosExpenseDateViewController.m */,
+			);
+			name = Expense;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		5203C26419443CDD00A6B1BD /* Report */ = {
+			isa = PBXGroup;
+			children = (
+				52582247193FE7C3000DA3F2 /* ievrenosPieChart.h */,
+				52582248193FE7C3000DA3F2 /* ievrenosPieChart.m */,
+				52D27832193ABC2600A60D87 /* ievrenosReportViewController.h */,
+				52D27833193ABC2600A60D87 /* ievrenosReportViewController.m */,
+			);
+			name = Report;
+			sourceTree = "<group>";
+		};
+		5203C26519443D2600A6B1BD /* Shared Objects */ = {
+			isa = PBXGroup;
+			children = (
+				5258224A193FF916000DA3F2 /* ievrenosSingleton.h */,
+				5258224B193FF916000DA3F2 /* ievrenosSingleton.m */,
+			);
+			name = "Shared Objects";
+			sourceTree = "<group>";
+		};
+		5203C26619443DB500A6B1BD /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				52D2782F193ABC0F00A60D87 /* ievrenosAccountViewController.h */,
+				52D27830193ABC0F00A60D87 /* ievrenosAccountViewController.m */,
+			);
+			name = Account;
+			sourceTree = "<group>";
+		};
+		5203C26719443E0300A6B1BD /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				52D2783B193ABC9500A60D87 /* Main.storyboard */,
+				52D27809193ABB1B00A60D87 /* ievrenosAppDelegate.h */,
+				52D2780A193ABB1B00A60D87 /* ievrenosAppDelegate.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
 		52D277EE193ABB1B00A60D87 = {
 			isa = PBXGroup;
 			children = (
@@ -107,8 +206,12 @@
 		52D27800193ABB1B00A60D87 /* iSpending */ = {
 			isa = PBXGroup;
 			children = (
-				52D27809193ABB1B00A60D87 /* ievrenosAppDelegate.h */,
-				52D2780A193ABB1B00A60D87 /* ievrenosAppDelegate.m */,
+				5203C26619443DB500A6B1BD /* Account */,
+				5203C26219443C3A00A6B1BD /* Income */,
+				5203C26319443C8000A6B1BD /* Expense */,
+				5203C26419443CDD00A6B1BD /* Report */,
+				5203C26719443E0300A6B1BD /* Main */,
+				5203C26519443D2600A6B1BD /* Shared Objects */,
 				52D2780C193ABB1B00A60D87 /* Images.xcassets */,
 				52D27801193ABB1B00A60D87 /* Supporting Files */,
 			);
@@ -192,6 +295,14 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "DePaul University";
 				TargetAttributes = {
+					52D277F6193ABB1B00A60D87 = {
+						DevelopmentTeam = MQ79U7S5FQ;
+						SystemCapabilities = {
+							com.apple.InterAppAudio = {
+								enabled = 0;
+							};
+						};
+					};
 					52D27811193ABB1C00A60D87 = {
 						TestTargetID = 52D277F6193ABB1B00A60D87;
 					};
@@ -220,8 +331,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				528936181944F5BA00DFBADC /* Images.xcassets in Resources */,
+				52D2783C193ABC9500A60D87 /* Main.storyboard in Resources */,
 				52D27805193ABB1B00A60D87 /* InfoPlist.strings in Resources */,
-				52D2780D193ABB1B00A60D87 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,7 +353,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				52D27807193ABB1B00A60D87 /* main.m in Sources */,
+				52D27831193ABC0F00A60D87 /* ievrenosAccountViewController.m in Sources */,
+				52509D2D193C4D5400F8744C /* ievrenosIncomeCategoryViewController.m in Sources */,
+				52509D33193C635E00F8744C /* ievrenosExpenseCategoryViewController.m in Sources */,
 				52D2780B193ABB1B00A60D87 /* ievrenosAppDelegate.m in Sources */,
+				52D27834193ABC2600A60D87 /* ievrenosReportViewController.m in Sources */,
+				5203C26119443B5600A6B1BD /* ievrenosExpenseDateViewController.m in Sources */,
+				52509D27193C43F000F8744C /* ievrenosAddIncomeViewController.m in Sources */,
+				5258224C193FF916000DA3F2 /* ievrenosSingleton.m in Sources */,
+				52582249193FE7C3000DA3F2 /* ievrenosPieChart.m in Sources */,
+				52509D30193C603A00F8744C /* ievrenosAddExpenseViewController.m in Sources */,
+				52509D2A193C49F800F8744C /* ievrenosIncomeDateViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,10 +480,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iSpending/iSpending-Prefix.pch";
 				INFOPLIST_FILE = "iSpending/iSpending-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -371,10 +496,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iSpending/iSpending-Prefix.pch";
 				INFOPLIST_FILE = "iSpending/iSpending-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -438,6 +566,7 @@
 				52D27825193ABB1C00A60D87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		52D27826193ABB1C00A60D87 /* Build configuration list for PBXNativeTarget "iSpendingTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +575,7 @@
 				52D27828193ABB1C00A60D87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
